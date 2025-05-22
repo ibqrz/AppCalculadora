@@ -34,9 +34,9 @@
               "Title": "MainPageViewModel.cs",
               "DocumentMoniker": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\View\\MainPageViewModel.cs",
               "RelativeDocumentMoniker": "AppCalculadora\\View\\MainPageViewModel.cs",
-              "ToolTip": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\View\\MainPageViewModel.cs*",
-              "RelativeToolTip": "AppCalculadora\\View\\MainPageViewModel.cs*",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAwwJAAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\View\\MainPageViewModel.cs",
+              "RelativeToolTip": "AppCalculadora\\View\\MainPageViewModel.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAwwLIAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T21:34:37.844Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "AppCalculadora\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T21:15:23.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T21:15:23.88Z"
             },
             {
               "$type": "Document",
@@ -62,7 +61,7 @@
               "RelativeDocumentMoniker": "AppCalculadora\\MainPage.xaml",
               "ToolTip": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\MainPage.xaml",
               "RelativeToolTip": "AppCalculadora\\MainPage.xaml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-22T21:02:32.582Z",
               "EditorCaption": ""

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 using System.Windows.Input;
 
 namespace AppCalculadora.View
@@ -63,7 +64,7 @@ namespace AppCalculadora.View
 
         private void OnOperadorClicked(string op)
         {
-            if (double.TryParse(DisplayText, out double numeroParaOperacao))
+            if (double.TryParse(DisplayText, NumberStyles.Any, CultureInfo.CurrentCulture, out double numeroParaOperacao))
             {
                 if (!string.IsNullOrEmpty(_operador) && !_novoNumero)
                 {
@@ -109,8 +110,8 @@ namespace AppCalculadora.View
 
             if (!erroDivisaoPorZero)
             {
-                DisplayText = resultado.ToString(); 
-                _primeiroNumero = resultado; 
+                DisplayText = resultado.ToString("G15", CultureInfo.CurrentCulture);
+                _primeiroNumero = resultado;
             }
         }
 
@@ -127,10 +128,9 @@ namespace AppCalculadora.View
         {
             if (!string.IsNullOrEmpty(_operador)) 
             {
-                double numeroAtual;
-                if (double.TryParse(DisplayText, out numeroAtual))
+                if (double.TryParse(DisplayText, NumberStyles.Any, CultureInfo.CurrentCulture, out double numeroAtualParaCalculo))
                 {
-                    _valorAtual = numeroAtual;
+                    CalcularResultadoIntermediario(numeroAtualParaCalculo);
                     double resultado = 0;
                     bool erroDivisaoPorZero = false;
 
@@ -173,12 +173,12 @@ namespace AppCalculadora.View
         {
             if (_novoNumero)
             {
-                DisplayText = "0.";
+                DisplayText = "0" + CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator; 
                 _novoNumero = false;
             }
-            else if (!DisplayText.Contains("."))
+            else if (!DisplayText.Contains(CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator)) 
             {
-                DisplayText += ".";
+                DisplayText += CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
             }
         }
 
