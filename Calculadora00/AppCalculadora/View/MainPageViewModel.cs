@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Globalization;
 using System.Windows.Input;
 
@@ -126,45 +122,13 @@ namespace AppCalculadora.View
 
         private void OnIgualdadeClicked()
         {
-            if (!string.IsNullOrEmpty(_operador)) 
+            if (!string.IsNullOrEmpty(_operador))
             {
                 if (double.TryParse(DisplayText, NumberStyles.Any, CultureInfo.CurrentCulture, out double numeroAtualParaCalculo))
                 {
-                    CalcularResultadoIntermediario(numeroAtualParaCalculo);
-                    double resultado = 0;
-                    bool erroDivisaoPorZero = false;
-
-                    switch (_operador)
-                    {
-                        case "+":
-                            resultado = _primeiroNumero + _valorAtual;
-                            break;
-                        case "-":
-                            resultado = _primeiroNumero - _valorAtual;
-                            break;
-                        case "X":
-                            resultado = _primeiroNumero * _valorAtual;
-                            break;
-                        case "/":
-                            if (_valorAtual != 0)
-                            {
-                                resultado = _primeiroNumero / _valorAtual;
-                            }
-                            else
-                            {
-                                DisplayText = "Erro";
-                                erroDivisaoPorZero = true;
-                            }
-                            break;
-                    }
-
-                    if (!erroDivisaoPorZero)
-                    {
-                        DisplayText = resultado.ToString();
-                    }
-                    _primeiroNumero = resultado; 
+                    CalcularResultadoIntermediario(numeroAtualParaCalculo);
                     _operador = "";
-                    _novoNumero = true;  
+                    _novoNumero = true;
                 }
             }
         }
