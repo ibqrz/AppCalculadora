@@ -1,0 +1,1 @@
+C:\Users\isabe\source\repos\ibqrz\AppCalculadora\Calculadora00\AppCalculadora\AppCalculadora.csproj;x64
