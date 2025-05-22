@@ -92,7 +92,7 @@ namespace AppCalculadora.View
                 case "-":
                     resultado = _primeiroNumero - segundoNumero;
                     break;
-                case "*":
+                case "X":
                     resultado = _primeiroNumero * segundoNumero;
                     break;
                 case "/":
