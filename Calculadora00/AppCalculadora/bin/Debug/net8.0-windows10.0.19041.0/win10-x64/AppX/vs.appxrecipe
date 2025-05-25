@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\isabe\source\repos\ibqrz\AppCalculadora\Calculadora00\AppCalculadora\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-22T23:26:55.725</Modified>
+      <Modified>2025-05-22T23:48:05.764</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isabe\source\repos\ibqrz\AppCalculadora\Calculadora00\AppCalculadora\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppCalculadora.dll">
       <PackagePath>AppCalculadora.dll</PackagePath>
-      <Modified>2025-05-22T23:26:54.843</Modified>
+      <Modified>2025-05-22T23:48:05.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isabe\source\repos\ibqrz\AppCalculadora\Calculadora00\AppCalculadora\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppCalculadora.exe</PackagePath>
-      <Modified>2025-05-22T23:26:54.900</Modified>
+      <Modified>2025-05-22T23:48:05.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\isabe\source\repos\ibqrz\AppCalculadora\Calculadora00\AppCalculadora\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

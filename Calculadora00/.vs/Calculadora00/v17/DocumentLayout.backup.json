@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{6534F066-435C-4417-A763-97F69FE846C2}|AppCalculadora\\AppCalculadora.csproj|solutionrelative:appcalculadora\\view\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6534F066-435C-4417-A763-97F69FE846C2}|AppCalculadora\\AppCalculadora.csproj|c:\\users\\isabe\\source\\repos\\ibqrz\\appcalculadora\\calculadora00\\appcalculadora\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6534F066-435C-4417-A763-97F69FE846C2}|AppCalculadora\\AppCalculadora.csproj|solutionrelative:appcalculadora\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6534F066-435C-4417-A763-97F69FE846C2}|AppCalculadora\\AppCalculadora.csproj|c:\\users\\isabe\\source\\repos\\ibqrz\\appcalculadora\\calculadora00\\appcalculadora\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6534F066-435C-4417-A763-97F69FE846C2}|AppCalculadora\\AppCalculadora.csproj|solutionrelative:appcalculadora\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6534F066-435C-4417-A763-97F69FE846C2}|AppCalculadora\\AppCalculadora.csproj|c:\\users\\isabe\\source\\repos\\ibqrz\\appcalculadora\\calculadora00\\appcalculadora\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6534F066-435C-4417-A763-97F69FE846C2}|AppCalculadora\\AppCalculadora.csproj|solutionrelative:appcalculadora\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6534F066-435C-4417-A763-97F69FE846C2}|AppCalculadora\\AppCalculadora.csproj|c:\\users\\isabe\\source\\repos\\ibqrz\\appcalculadora\\calculadora00\\appcalculadora\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6534F066-435C-4417-A763-97F69FE846C2}|AppCalculadora\\AppCalculadora.csproj|solutionrelative:appcalculadora\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,49 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\View\\MainPageViewModel.cs",
-              "RelativeDocumentMoniker": "AppCalculadora\\View\\MainPageViewModel.cs",
-              "ToolTip": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\View\\MainPageViewModel.cs*",
-              "RelativeToolTip": "AppCalculadora\\View\\MainPageViewModel.cs*",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAwwLIAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:34:37.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppCalculadora\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\AppShell.xaml",
-              "RelativeToolTip": "AppCalculadora\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T21:15:23.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\MainPage.xaml",
               "RelativeDocumentMoniker": "AppCalculadora\\MainPage.xaml",
               "ToolTip": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\MainPage.xaml",
               "RelativeToolTip": "AppCalculadora\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-22T21:02:32.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "AppCalculadora\\MainPage.xaml.cs",
@@ -77,6 +48,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T21:02:53.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\View\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "AppCalculadora\\View\\MainPageViewModel.cs",
+              "ToolTip": "C:\\Users\\isabe\\source\\repos\\ibqrz\\AppCalculadora\\Calculadora00\\AppCalculadora\\View\\MainPageViewModel.cs*",
+              "RelativeToolTip": "AppCalculadora\\View\\MainPageViewModel.cs*",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAuwKEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:34:37.844Z",
               "EditorCaption": ""
             }
           ]
